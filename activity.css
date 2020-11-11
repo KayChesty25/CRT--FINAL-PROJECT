@@ -1,0 +1,338 @@
+
+.k12{
+	position: absolute;
+	width: 30%;
+	height: 13%;
+	margin-top: 37%;
+
+	-webkit-animation: flicker-4 4s linear infinite both;
+	        animation: flicker-4 4s linear infinite both;
+	-webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes flicker-4 {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  31.98% {
+    opacity: 1;
+  }
+  32% {
+    opacity: 0;
+  }
+  32.8% {
+    opacity: 0;
+  }
+  32.82% {
+    opacity: 1;
+  }
+  34.98% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 0;
+  }
+  35.7% {
+    opacity: 0;
+  }
+  35.72% {
+    opacity: 1;
+  }
+  36.98% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
+  37.6% {
+    opacity: 0;
+  }
+  37.62% {
+    opacity: 1;
+  }
+  67.98% {
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
+  }
+  68.4% {
+    opacity: 0;
+  }
+  68.42% {
+    opacity: 1;
+  }
+  95.98% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 0;
+  }
+  96.7% {
+    opacity: 0;
+  }
+  96.72% {
+    opacity: 1;
+  }
+  98.98% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  99.6% {
+    opacity: 0;
+  }
+  99.62% {
+    opacity: 1;
+  }
+}
+.SHS-font1{
+	position: absolute;
+	margin-top: 43%;
+	margin-left: 3.5%;
+	font-size: 30px;
+	color: red;
+	font-family: Arial Black;
+}
+.SHS-font11{
+	position: absolute;
+	margin-top: 43%;
+	margin-left: 3.5%;
+	font-size: 30px;
+	color: orange;
+	font-family: Arial Black;
+}
+.SHS-font2{
+	position: absolute;
+	margin-top: 46%;
+	font-size: 27px;
+	color: black;
+	font-family: Arial Black;
+}
+.SHS-font22{
+	position: absolute;
+	margin-top: 46%;
+	font-size: 27px;
+	color: white;
+	font-family: Arial Black;
+}
+.k-12{
+	margin-left: 25.5%;
+
+
+	
+}
+.k12title{
+	width: 350px;
+	height: 170px;
+	position: absolute;
+	margin-top: 46%;
+	margin-left: 1.8%;
+	cursor: pointer;
+}
+.k12title2{
+	width: 350px;
+	height: 170px;
+	position: absolute;
+	margin-top: 66%;
+	margin-left: 1.8%;
+	cursor: pointer;
+}
+.academic-back1{
+	margin-top: 56%;
+	width: 30%;
+	height: 170px;
+	position: absolute;
+	background-color: rgba(19, 93, 158, 0.4);
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+.academic-back11{
+	margin-top: 56%;
+	width: 30%;
+	height: 170px;
+	position: absolute;
+	background-color: #1d1b1b;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	transition: 1s ease-in-out;
+}
+.academic-back2{
+	margin-top: 76%;
+	width: 30%;
+	height: 80%;
+	position: absolute;
+	background-color: rgba(19, 93, 158, 0.4);
+	border: 1px solid transparent;
+	border-radius: 10px;
+
+}
+.academic-back22{
+	margin-top: 76%;
+	width: 30%;
+	height: 80%;
+	position: absolute;
+	background-color: #1d1b1b;
+	border: 1px solid transparent;
+	border-radius: 10px;
+
+}
+.academic-font{
+	font-size: 18px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 38.5%;
+	margin-top: 5%;
+	position: absolute;
+	color: black;
+	cursor: pointer;
+}
+.academic-fontt{
+	font-size: 18px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 38.5%;
+	margin-top: 5%;
+	position: absolute;
+	color: orange;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+}
+.academic-font:hover{
+	color: white;
+}
+.academic-font31{
+	font-size: 18px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 38.5%;
+	margin-top: 23%;
+	position: absolute;
+	color: orange;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+}
+.academic-font1{
+	font-size: 18px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 38.5%;
+	margin-top: 23%;
+	position: absolute;
+	color: black;
+	cursor: pointer;
+}
+.academic-font1:hover{
+	color: white;
+}
+.academic-font2{
+	font-size: 18px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 38.5%;
+	margin-top: 45%;
+	position: absolute;
+	color: black;
+	cursor: pointer;
+}
+.academic-font22{
+	font-size: 18px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 38.5%;
+	margin-top: 45%;
+	position: absolute;
+	color: orange;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+}
+.academic-font2:hover{
+	color: white;
+}
+.ICT, .HE{
+	-webkit-animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes roll-in-left {
+  0% {
+    -webkit-transform: translateX(-800px) rotate(-540deg);
+            transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+            transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.ICT-font{
+	font-size: 16px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 18%;
+	margin-top: 26%;
+	position: absolute;
+	color: black;
+	cursor: pointer;
+}
+.ICT-font1{
+	font-size: 16px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 18%;
+	margin-top: 26%;
+	position: absolute;
+	color: #f5c85d;
+	cursor: pointer;
+}
+.HE-font{
+	font-size: 16px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 18%;
+	margin-top: 57%;
+	position: absolute;
+	color: black;
+	cursor: pointer;
+}
+.HE-font1{
+	font-size: 16px;
+	font-family: arial black;
+	font-weight: bolder;
+	margin-left: 18%;
+	margin-top: 57%;
+	position: absolute;
+	color:#f5c85d;
+	cursor: pointer;
+}
+.academic-he{ 
+	width: 30%;
+	height: 50px;
+	margin-left: 7%;
+	margin-top: 70%;
+	position: absolute;
+}
+.academic-abm{
+	width: 30%;
+	height: 50px;
+	margin-left: 7%;
+	margin-top: 5%;
+	position: absolute;
+}
+.academic-gas{
+	width: 30%;
+	height: 50px;
+	margin-top: 23%;
+	margin-left: 7%;
+	position: absolute;
+
+}
+.home-side{
+	width: 45%;
+	height: 167%;
+	position: absolute;
+	margin-top: 35%;
+	margin-left: 53%;
+	
+}

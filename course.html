@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Courses Offered</title>
+		<link rel="stylesheet" text="text/css" href="style.css"> 
+		<script src="Jquery.js"></script>
+			<script>
+				$(document).ready(function(){
+					$(".bshrm").click(function(){
+						$(".container-hrm").animate({marginLeft:"130px"});
+
+						
+					});
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+					$(".closing-box").click(function(){
+						
+						$(".container-hrm").animate({marginLeft:"-1500px"});
+
+				
+						});
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+					$(".bstm").click(function(){
+
+						$(".container-bstm").animate({marginLeft:"130px"});
+						
+					});
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+					$(".closing-box").click(function(){
+						$(".container-bstm").animate({marginLeft:"-1500px"});
+						
+						});
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+					$(".bsat").click(function(){
+						$(".container-bsat").animate({marginLeft:"130px"});
+						
+					});
+				});
+			</script>		
+			<script>
+				$(document).ready(function(){
+					$(".closing-box").click(function(){
+						$(".container-bsat").animate({marginLeft:"-1500px"});
+				
+						});
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+					$(".btte").click(function(){
+						$(".container-btte").animate({marginLeft:"130px"});
+						
+					});
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+					$(".closing-box").click(function(){
+						$(".container-btte").animate({marginLeft:"-1500px"});
+				
+						});
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+					$(".bsit").click(function(){
+						$(".container-bsit").animate({marginLeft:"130px"});
+						
+					});
+				});
+			</script>
+			<script>
+				$(document).ready(function(){
+					$(".closing-box").click(function(){
+						$(".container-bsit").animate({marginLeft:"-1500px"});
+					
+						});
+				});
+			</script>
+
+			<script type="text/javascript">
+				var slideimages=new Array()
+				function slideshowimages(){
+					for (i=0;i<slideshowimages.arguments.length;i++){
+						slideimages[i]=new Image()
+						slideimages[i].src=slideshowimages.arguments[i]
+						}
+				}
+			</script>
+
+			<script>
+          $(this).ready(function(){
+            $(".sliders").click(function(){
+            $(".header").toggleClass("header1");
+            $(".header").toggleClass("header2");
+            $(".lining").toggleClass("lining1");
+            $(".crt-name").toggleClass("crt-name1");
+            $(".home").toggleClass("home1");
+            $(".about").toggleClass("about1");
+            $(".course").toggleClass("course1");
+            $(".vm").toggleClass("vm1");
+            $(".kontak").toggleClass("kontak1");
+            $(".typing").toggleClass("typing1");
+            $(".lining-typing").toggleClass("lining-typing1");
+            $(".border-font").toggleClass("border-font1");
+            $(".border1").toggleClass("borders1");
+            $(".border2").toggleClass("borders2");
+            $(".border3").toggleClass("borders3");
+            $(".border4").toggleClass("borders4");
+            $(".border5").toggleClass("borders5");
+            $(".border6").toggleClass("borders6");
+            $(".border7").toggleClass("borders7");
+            $(".border8").toggleClass("borders8");
+            
+                
+          });
+        
+          });
+          $(document).ready(function(){
+            $(".sliders").click(function(){
+            $(".side-bar").toggleClass("side-bar1");
+            $(".course123").toggleClass("course1234");
+            $(".title-4").toggleClass("title-41");
+            $(".four").toggleClass("four1");
+            $(".deped-back").toggleClass("deped-back1");
+            $(".SHS-font1").toggleClass("SHS-font11");
+            $(".SHS-font2").toggleClass("SHS-font22");
+            $(".academic-back1").toggleClass("academic-back11");
+            $(".academic-font").toggleClass("academic-fontt");
+            $(".academic-font1").toggleClass("academic-font31");
+            $(".academic-font2").toggleClass("academic-font22");
+            $(".ICT-font").toggleClass("ICT-font1");
+            $(".HE-font").toggleClass("HE-font1");
+            $(".academic-back2").toggleClass("academic-back22");
+            $(".footer-course").toggleClass("footer-course1");
+            $(".footer-font").toggleClass("footer-font1");
+          });
+          
+          });
+
+
+          $(document).ready(function(){
+                $('.sliders').click(function(){
+                    $('.toggle').toggleClass('active')
+                    $('body').toggleClass('night1')
+                  });
+          
+          });
+
+
+   </script>
+	
+
+
+	</head>
+
+		<body>
+			
+			<img src="img/crt.png" alt="Slideshow Image Script" title="crt" name="slide" id="slider" class="crt-school">
+					
+					<script type="text/javascript">
+						slideshowimages("img/crt.png","img/crtold.png","img/newcrt.png")
+						var slideshowspeed=3000
+						var whichimage=0
+						function slideit(){
+							if (!document.images)
+								return
+									document.images.slide.src=slideimages[whichimage].src
+							if (whichimage<slideimages.length-1)
+									whichimage++
+							else
+									whichimage=0
+									setTimeout("slideit()",slideshowspeed)
+						}
+						slideit()
+					</script> 
+
+					<img src="img/logo.png" class= "logo">
+					<div class="crt">College for Research & Technology</div>
+					<div class="crt1">Burgos Avenue, Cabanatuan City</div>
+					<div class="crt2">Email:crt.cabanatuan@gmail.com/crt.cabanatuan@facebook.com</div>
+
+			<div class="header">
+
+				<label class="switchs">
+                	<input type="checkbox">
+                	<span class="sliders round"></span>
+           		 </label>
+
+				<img src="img/logo.png" class= "logo1">
+				<div class="crt-name">College for Research & Technology</div>
+					<ul>
+						<li><a href="index.html" class="home">Home</a></li>
+						<li><a href="about2.html" class="about">About</a></li>
+						<li><a href="course.html" class="course">Courses</a></li>
+						<li><a href="vm.html" class="vm">Vision/Mission</a></li>
+						<li><a href="contacts.html" class="kontak">Contact Us</a></li>
+					</ul>
+				<div class="lining"></div>
+			</div>
+
+			<img src="img/crt.png" class= "crt-school">
+			<img src="img/logo.png" class= "logo">
+
+			
+				<img src="img/logo/violet.png" class="gray">
+				<img src="img/logo/bsit.png" class="bsit">	
+
+				<img src="img/logo/green.png" class="green">
+				<img src="img/logo/btte.png" class="btte">
+
+				<img src="img/logo/red.png" class="red">
+				<img src="img/logo/bsat.png" class="bsat">
+				
+				<img src="img/logo/yellow.png" class="yellow">
+				<img src="img/logo/bstm.png" class="bstm">
+
+				<img src="img/logo/blue.png" class="blue">
+				<img src="img/logo/bshrm.png" class="bshrm">
+
+					<div class="container-hrm"><img src="img/course/1.png" class="pic1"><img src="img/logo/close.png" class="closing-box">
+						<div class="title-hrm"> Bachelor of Science in Hotel & Restaurant Management</div>
+							<div class="title1"> (Two-year Associate in HRM)</div>
+								<div class="bshrm-word">&emsp;&emsp;This course is designed to make the student a well-rounded hotel and restaurant practitioner in land or sea. It includes enough knowledge in the operation and maintenance of a hotel or a restaurant particularly in Food and Beverage Services, Hot and Cold Kitchen operation, Food Processing, Baking & Pastry, Bar & Barista Services. Also, students can avail of free training on Household Services or Therapeutic Massage Therapy.<br>
+
+								&emsp;&emsp;Moreover, CRT now applies e-Learning approach designed after the Competency-Bases Training (CBT) of the Philippines Australia Quality Vocational Education and Training (PAQTVET) model and integrates the ladderized option for all competencies in hotel and restaurant services; that is, even if the students have not completed the 4-year degree program, they are still given qualification competencies provided by TESDA which is applicable for employment. The program also includes exposure to different hotels and restaurants and actual apprenticeship in ship companies bound to Cebu, Iloilo, Zamboanga and Davao and other foreign destinations like Hongkong, Singapore and the like.</div>
+					</div>
+
+					<div class="container-bstm"><img src="img/course/3.png" class="pic1"><img src="img/logo/close.png" class="closing-box">
+						<div class="title-bstm"> Bachelor of Science in Tourism Management</div>
+							<div class="title1"> (Two-year Tourism Services)</div>
+								<div class="bshrm-word">&emsp;&emsp;This course is aimed towards the development of personnel in order to meet the needs of the rapidly growing tourism industry. After completion of the course a student will be well-equipped to handle the queries and work in the travel, tour, or any other segment of the leisure industry.<br>
+
+								&emsp;&emsp;The study includes the knowledge in travel Agency Management like regulations, organizations, recognition of travel agency; Tour Operation; Hospitality Management like type accommodations available, different categories of hotels, different departments of hotel; Modes of Transportation and Airline Ticketing; Socio cultural Resource; Marketing in the Hospitality industry like nature, classification and characteristics of services and their marketing implications, methodology considerations and pricing of Tour Packing, designing and printing of Tour Brochure and many more.<br>
+
+								&emsp;&emsp;Moreover, CRT integrates the ladderized option for all competencies in the tourism industry; that is, even if the students have not completed the 4-year degree program, they are still given qualification competencies provided by TESDA which is applicable for employment. The program also includes exposure to different hotels, travel agencies.</div>
+					</div>
+
+					<div class="container-bsat"><img src="img/course/2.png" class="pic1"><img src="img/logo/close.png" class="closing-box">
+						<div class="title-bsat"> Bachelor of Science in Accounting Technology</div>
+							<div class="title1"> (Two-year Computer Management)</div>
+								<div class="bshrm-word">&emsp;&emsp;TA Bachelor of Science in Accounting Technology prepares the graduate for a career as an accountant, bookkeeper, accounts receivable or payable supervisor or a billing or financial professional. The course allows students to combine their business knowledge with the exacting skills needed in accounting to be an advisor, supervisor or professional within any business environment.<br>
+
+								&emsp;&emsp;The objectives of this Accounting Technology program are to acquire well-balanced combination of knowledge and skills in areas ranging from accounting, finance, business, and computer technology so that the graduate can prove effective in many professional environments; devise, analyze and  implements accounting programs and software applications for business; and serve as a team member and/or leader on various projects.<br>
+
+								&emsp;&emsp;This course is designed for an associate program with applicable National Certificate on Bookkeeping and Micro-finance as well as Accounting Technician. Moreover, CRT applies the e-learning approach designed after the Competency-Based Training (CBT) of the Philippines Australia Quality Technical Vocational Education and Training (PAQTVET) model to assure quality training for all students.</div>
+					</div>
+
+					<div class="container-btte"><img src="img/course/1.png" class="pic1"><img src="img/logo/close.png" class="closing-box">
+						<div class="title-btte"> Bachelor in Technical Teacher Education</div>
+							
+								<div class="bshrm-word">&emsp;&emsp;Bachelor in Technical Teacher Education is a degree that prepares individuals to teach specific vocational technical education programs at various educational levels, from elementary to tertiary, obtain their bachelor's degree as well as earn TESDA certification. In addition, a wide range of courses in technology education is taught at this course that prepares them to gain knowledge, skills, and training necessary for the industry. Also they are prepared for technology integration in all areas of specialization that includes computer applications and networks, e-learning, to name just a few. <br>
+								&emsp;&emsp;This program is designed to provide prospective teachers with strong academic, pedagogical, and laboratory-based experiences to enhance their technology teaching performance in all levels. This course is designed as a ladderized program that an individual can earn after each major courses. Moreover, CRT applies the e-Learning approach designed after the Competency-Based Training (CBT) of the Philippines Australia Quality Technical Vocational Education and Training (PAQTVET) model to assure quality training for all students. </div>
+					</div>
+
+					<div class="container-bsit"><img src="img/course/4.png" class="pic1"><img src="img/logo/close.png" class="closing-box">
+						<div class="title-bsit"> Bachelor of Science in Computer Technology</div>
+							<div class="title2"> (Two-year Associate in Computer Technology)</div>
+								<div class="bshrm-word">&emsp;&emsp;this course provides a rigorous foundation in both theoretical and practical aspects of computer technology (hardware and software) with telecommunication technology (data, image, and voice networks) and is designed to provide intensive background in the design, analysis, programming, and PC application, including the knowledge in distributive data management system in the use of Local Area Network, and other computer communication facilities.<br>
+								&emsp;&emsp;Moreover, CRT integrated the technical courses for the ladderized option i.e., PC OPERATIONS-1st year COMPUTER PROGRAMMING or HARDWARE SERVICING-2nd year and SOFTWARE ENGINEERING in the 4th year with specialization on Java Programming, Web Development, Graphic Design and Digital Animation; likewise, we have included the E-Learning approach designed after the Competency Based Curriculum (CBT) of Philippine Australia Quality Technical Vocational Education & Training (PAQTVET) model in our curriculum.
+ 								</div>
+					</div>
+					
+					<div class="footer-course">
+						<div class="footer-font">College For Research and Technology 2019 &copy; Kay Chesty Abalos BSIT4-A</div>
+					</div>
+
+			
+
+			
+
+			
+
+			
+
+		</body>
+</html>
